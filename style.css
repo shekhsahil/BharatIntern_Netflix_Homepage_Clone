@@ -1,0 +1,377 @@
+*,
+.my-get-started {
+    box-sizing: border-box
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.my-get-started {
+    padding: .8rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #d50b0b;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 6px
+}
+
+::-webkit-scrollbar {
+    display: none
+}
+
+body {
+    color: #fff;
+    background-color: #000;
+    font-family: sans-serif
+}
+
+.unique-showcase {
+    width: 100%;
+    height: 93vh;
+    position: relative;
+    background: url(https://i.ibb.co/vXqDmnh/background.jpg)
+}
+
+.unique-showcase::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, .6);
+    box-shadow: inset 120px 100px 250px #000, inset -120px -100px 250px #000
+}
+
+.unique-showcase-top {
+    position: absolute;
+    z-index: 2;
+    height: 90px
+}
+
+.unique-navbar {
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem
+}
+
+.my-language,
+.my-sign-in {
+    padding: .8rem;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer
+}
+
+.my-logo {
+    width: 12rem
+}
+
+.my-down-arr,
+.my-globe {
+    width: 1.3rem;
+    filter: invert(1)
+}
+
+.my-globe {
+    margin-right: .8rem
+}
+
+.my-down-arr {
+    margin-left: .6rem
+}
+
+.my-language {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(128, 128, 128, .675);
+    outline: 0;
+    border-radius: 6px
+}
+
+.my-language:hover {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .79)
+}
+
+.my-logo-right {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.my-sign-in {
+    background-color: #d50b0b;
+    border: none;
+    border-radius: 6px;
+    margin-left: 2rem
+}
+
+.my-sign-in:hover {
+    opacity: .9
+}
+
+.my-title-container {
+    padding: 3rem 6rem
+}
+
+.my-ultimate {
+    font-size: 68px;
+    width: 980px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    margin-bottom: 1.8rem;
+    font-family: 'Konkhmer Sleokchher', cursive
+}
+
+.my-watch {
+    margin-bottom: 2.2rem
+}
+
+.my-ready {
+    color: #e5e5e5;
+    margin-bottom: 1.2rem
+}
+
+.my-second-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.my-items {
+    border: 1.5px solid rgba(157, 156, 156, .461);
+    width: 660px;
+    height: 500px;
+    padding: 2rem 5rem;
+    margin: .6rem;
+    border-radius: 1.2rem;
+    background: linear-gradient(to bottom right, rgba(51, 51, 51, .507), rgba(51, 51, 51, .507), rgba(134, 5, 5, .36));
+    transition-duration: .3s
+}
+
+.my-collapsable,
+.my-content {
+    width: 1150px;
+    color: #fff;
+    transition-duration: .2s
+}
+
+.my-items:hover {
+    transform: scale(.95)
+}
+
+.my-items>img {
+    width: 460px;
+    align-items: center;
+    margin-left: 1.2rem
+}
+
+.my-items>h2 {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    width: 400px
+}
+
+.my-items>p {
+    margin-bottom: -1rem;
+    margin-top: 12px
+}
+
+.my-third-container {
+    padding: 3rem 3rem 3rem 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: start
+}
+
+.my-collapsable {
+    background-color: #535353;
+    cursor: pointer;
+    padding: 1.5rem;
+    margin-top: .9rem;
+    text-align: left;
+    outline: 0;
+    font-size: 21px;
+    border: none
+}
+
+.my-active,
+.my-collapsable:hover {
+    background-color: #262626
+}
+
+.my-content {
+    font-size: 18px;
+    padding: 1rem 3rem;
+    display: none;
+    overflow: hidden;
+    background-color: #141415
+}
+
+.my-question {
+    margin-bottom: 1rem;
+    text-align: left
+}
+
+.my-dwn {
+    margin-top: 3rem
+}
+
+.my-last-in {
+    margin-top: 1.5rem
+}
+
+.my-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.my-footer>p {
+    width: 400px;
+    margin: .5rem;
+    color: gray
+}
+.my-footer>p:hover{
+    color:red;
+}
+.my-call {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem
+}
+
+#my-eml {
+    padding: 1rem;
+    font-size: 1.1rem;
+    width: 380px;
+    background-color: rgba(0, 0, 0, .468);
+    border: 1.2px solid rgba(126, 125, 125, .811);
+    backdrop-filter: blur(5px);
+    border-radius: 6px;
+    margin-right: 1.5rem
+}
+
+input:focus {
+    outline: 0;
+    color: gray;
+    border: 1.2px solid rgba(209, 209, 209, .811)
+}
+
+.my-netflix {
+    margin: 2rem 0;
+    color: #cb1212
+}
+
+.my-title-down {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+
+/* @media screen and (max-width:1200px) {
+    .my-logo {
+        width: 10rem
+    }
+
+    .my-title-container {
+        padding: 2rem 4rem
+    }
+
+    .my-ultimate {
+        font-size: 48px;
+        width: 800px
+    }
+
+    .my-items {
+        width: calc(50% - 2rem);
+        padding: 2rem 3rem
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .my-items,
+    .my-title-container {
+        padding: 2rem 3rem
+    }
+
+    .my-ultimate {
+        font-size: 42px;
+        width: 600px
+    }
+
+    .my-items {
+        width: calc(50% - 2rem)
+    }
+}
+
+@media screen and (max-width:768px) {
+    .unique-navbar {
+        padding: 2rem
+    }
+
+    .my-logo {
+        width: 8rem
+    }
+
+    .my-title-container {
+        padding: 1rem 2rem
+    }
+
+    .my-ultimate {
+        font-size: 36px;
+        width: 400px
+    }
+
+    .my-items {
+        width: calc(100% - 2rem);
+        padding: 1.5rem 2rem
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .my-items,
+    .my-title-container {
+        padding: 1rem
+    }
+
+    .unique-navbar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem
+    }
+
+    .my-logo {
+        width: 6rem
+    }
+
+    .my-ultimate {
+        font-size: 28px;
+        width: 100%;
+        text-align: center
+    }
+
+    .my-items {
+        width: calc(100% - 1rem)
+    }
+} */
